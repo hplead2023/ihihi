@@ -1,0 +1,290 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sudo's Repo</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+  </style>
+</head>
+
+<body>
+
+  <div id="navbar">
+    <div class="container">
+      <img src="assets/sudo.png" alt="HTML5 Icon" width="40" height="40" id="navbar-icon">
+      <h6 id="navbar-title">sudo9000</h6>
+    </div>
+  </div>
+
+	<div class="separator" style="background-color: #42566A; height: 1px; width:100%; transform: translateY(0px);"></div>
+
+  <br>
+
+  <div class="banner">
+    <div class="container">
+      <img src="assets/banner.png">
+    </div>
+  </div>
+
+  <div class="about">
+    <div class="container">
+		  <h1>Debra</h1>
+		  <h6>Deb Repackaging Assistant</h6>
+      <p>Simply type 'debra' into a terminal.</p>
+		</div>
+  </div>
+
+	<div class="separator" style="background-color: #42566A; height: 1px; width:100%; transform: translateY(0px);"></div>
+
+	<button class="collapsible">Features</button>
+	<div class="features">
+		<p>• Works for both Rooted & Rootless jailbreaks</p>
+		<p>• List & filter Installed Tweaks</p>
+		<p>• Repack Installed Tweaks into .deb</p>
+		<p>• Uninstall Tweaks</p>
+		<p>• List & filter Saved Debs</p>
+		<p>• Extract Saved Debs</p>
+		<p>• Install Saved Debs</p>
+		<p>• Displays # of Installed Tweaks & Saved Debs</p>
+		<p>• "More" menu option for additional actions</p>
+		<p>• Export tweak list as .txt file</p>
+		<p>• Bulk Backup all installed packages as debs - Works on Xina!</p>
+		<p>• Fix DPKG LOCKED error in package managers</p>
+		<p>• Auto-launch Filza to Debra folder upon repack/extract</p>
+  </div>
+
+	<div class="separator" style="background-color: #42566A; height: 1px; width:100%; transform: translateY(0px);"></div>
+
+	<div class="screenshots">
+  	<div class="container">
+			<h1>&#8592; Screenshots &#8594;</h1>
+			<br>
+    	<ul>
+      	<li><a href="assets/debra1.png"><img src="assets/debra1.png" draggable="false"></a></li>
+      	<li><a href="assets/debra2.png"><img src="assets/debra2.png" draggable="false"></a></li>
+      	<li><a href="assets/debra4.png"><img src="assets/debra4.png" draggable="false"></a></li>
+				<li><a href="assets/debra5.png"><img src="assets/debra5.png" draggable="false"></a></li>
+				<li><a href="assets/debra6.png"><img src="assets/debra6.png" draggable="false"></a></li>
+				<li><a href="assets/debra7.png"><img src="assets/debra7.png" draggable="false"></a></li>
+    	</ul>
+  	</div>
+	</div>
+
+	<br>
+
+  <div class="separator" style="background-color: #42566A; height: 1px; width:100%; transform: translateY(0px);"></div>
+
+	<button class="collapsible">Changelog</button>
+	<div class="changelog">
+		<h3>2.9.9</h3>
+		<p>Lots of changes</p>
+		<br>
+		<h3>2.8.5</h3>
+		<p>Fixed a permissions issue</p>
+		<br>
+		<h3>2.8.4</h3>
+		<p>Cleaned up the backup process</p>
+		<p>Filtered out some very large packages that slow down backups drastically</p>
+		<br>
+		<h3>2.8.3</h3>
+		<p>Updated dpkg-fix paths for Dopamine</p>
+		<br>
+		<h3>2.8.2</h3>
+		<p>Added option to backup Tweak Preferences (rootful or rootless)</p>
+		<br>
+		<h3>2.8.1</h3>
+		<p>Bug fixes</p>
+		<br>
+		<h3>2.8.0</h3>
+		<p>Fixed an issue on Fugu where post scripts were not repacking</p>
+		<br>
+		<h3>2.7.9</h3>
+		<p>Differentiated repacking logic for Xina (rooted debs) vs Fugu15 (rootless debs)</p>
+		<p>Xina will reverse the /var/jb paths upon repacking to preserve legacy/rooted deb layout</p>
+		<p>Fugu15 will keep the /var/jb paths upon repacking to preserve rootless deb layout</p>
+		<br>
+		<h3>2.7.8</h3>
+		<p>Bug fix</p>
+		<br>
+		<h3>2.7.7</h3>
+		<p>Fixed a broken fugu path</p>
+		<br>
+		<h3>2.7.6</h3>
+		<p>Added rootless support for Fugu15</p>
+		<br>
+		<h3>2.7.5</h3>
+		<p>Fixed issue where BACKUP directory is not created in certain cases</p>
+		<br>
+		<h3>2.7.4</h3>
+		<p>Changed backup function to produce a single .tar archive</p>
+		<p>Added incremental filenames to backup files for multiple backups if needed</p>
+		<p>Moved tweaklist export to BACKUP directory and added incremental filenames</p>
+		<br>
+		<h3>2.7.3</h3>
+		<p>Fixed debra 'uicache -r' functionality for Xina users</p>
+		<br>
+		<h3>2.7.2</h3>
+		<p>New Backup function! Bulk backup all installed packages as .deb files</p>
+		<p>Backup feature DOES work on XinaA15 jailbreaks too :)</p>
+		<br>
+		<h3>2.7.1</h3>
+		<p>Rewrote Filza launcher for better Xina stability</p>
+		<p>Now requires Term Colors for Xina users</p>
+		<br>
+		<h3>2.7.0</h3>
+		<p>Xina fixes</p>
+		<br>
+		<h3>2.6.9</h3>
+		<p>filza launcher fix</p>
+		<br>
+		<h3>2.6.8</h3>
+		<p>Completely fixed extracting and redebbing for XinaA15 jailbreaks</p>
+		<p>Removed CC launcher. Was pointless</p>
+		<br>
+		<h3>2.6.7</h3>
+		<p>Added a slow-down pause (mainly due to Xina issues) so errors can be read when installing or uninstalling, rather than instantly clearing from screen</p>
+		<p>No longer requires CyDown folder for saved debs. A new savedDebs folder will be created in Debra directory automatically, and will be symlinked to CyDown folder if one exists</p>
+		<br>
+		<h3>2.6.6</h3>
+		<p>Added iOS 15 support for Xina and Fugu15</p>
+		<br>
+		<h3>2.6.5</h3>
+		<p>Added support for extracting debs with .tar.zst compression</p>
+		<br>
+		<h3>2.6.4</h3>
+		<p>Added a "More" menu option</p>
+		<p>Export tweak list</p>
+		<p>Few other small actions in "More" menu option</p>
+		<br>
+		<h3>2.6.3</h3>
+		<p>bug fixes</p>
+		<br>
+		<h3>2.6.2</h3>
+		<p>bug fixes</p>
+		<br>
+		<h3>2.6.1</h3>
+		<p>Added 2 new argument options</p>
+		<p>debra -f : fixes dpkg locked errors</p>
+		<p>debra -h : help/usage display</p>
+		<p>other small fixes</p>
+		<br>
+		<h3>2.6</h3>
+		<p>Added 2 new argument options</p>
+		<p>debra -f : fixes dpkg locked errors</p>
+		<p>debra -h : help/usage display</p>
+		<br>
+		<h3>2.5</h3>
+		<p>Small aesthetic frame fix</p>
+		<br>
+		<h3>2.4</h3>
+		<p>Fixed filters sometimes using wrong selection if the filename contained a same number as the result number</p>
+		<br>
+		<h3>2.3</h3>
+		<p>Updated to auto-launch Filza into Debra folder directly from CLI after repacking or extracting</p>
+		<p>Added CC button quick launcher</p>
+		<br>
+		<h3>2.2</h3>
+		<p>General script cleanup and small visual fixes</p>
+		<br>
+		<h3>2.1</h3>
+		<p>Now runs with super user permissions (no longer requires sudo or root user for all functions to work)</p>
+		<br>
+		<h3>2.0</h3>
+		<p>Fixed crucial DEBIAN files being missed when re-packaging tweaks such as:</p>
+		<p>preinst, postinst, prerm, postrm, extrainst_ and control-e files when applicable</p>
+		<br>
+		<h3>1.9</h3>
+		<p>Added the option to Respring or uicache after installing or uninstalling</p>
+		<p>Fixed a bug causing selections from Deb menu to choose wrong debs if the filename contained spaces</p>
+		<br>
+		<h3>1.8</h3>
+		<p>Fixed missing version in filename output when repacking deb</p>
+		<p>Removed extension from directory name output when extracting deb</p>
+		<br>
+		<h3>1.7</h3>
+		<p>Fixed error controlling when no filtered results</p>
+		<br>
+		<h3>1.6</h3>
+		<p>Added filter options when displaying lists 1 and 4</p>
+		<p>Removed root test from v1.5</p>
+		<br>
+		<h3>1.5</h3>
+		<p>Root test</p>
+		<br>
+		<h3>1.4</h3>
+		<p>Fixed a redirect issue</p>
+		<p>New Colors and Layout</p>
+		<p>Added deb install and tweak uninstall option</p>
+		<br>
+		<h3>1.3</h3>
+		<p>Fixed a redirect issue from 1.2</p>
+		<p>New layout</p>
+		<p>Added more options</p>
+		<p>Now compatible with all fonts. Removed previous font packages</p>
+		<br>
+		<h3>1.2</h3>
+		<p>New layout</p>
+		<p>Added more options</p>
+		<p>Now compatible with all fonts. Removed previous font packages</p>
+		<br>
+		<h3>1.1</h3>
+		<p>Re-spaced layout to allow for slightly larger font size</p>
+		<p>Fixed For loop on files and directories with spaces</p>
+		<p>Added Recommended Font packages for use with NewTerm</p>
+		<br>
+		<h3>1.0</h3>
+		<p>Initial release</p>
+	</div>
+
+  <div class="separator" style="background-color: #42566A; height: 1px; width:100%; transform: translateY(0px);"></div>
+
+	<button class="collapsible">Dependencies</button>
+	<div class="dependencies">
+    <p>sudo</p>
+    <p>bash (>= 5.0.3.2)</p>
+    <p>coreutils (>= 8.31-1)</p>
+    <p>grep (>= 3.1-1)</p>
+    <p>sed (>= 4.5-1)</p>
+    <p>gawk (>= 4.2.1-1)</p>
+    <p>tar (>= 1.33-1)</p>
+  </div>
+
+  <div class="separator" style="background-color: #42566A; height: 1px; width:100%; transform: translateY(0px);"></div>
+
+	<script>
+	var coll = document.getElementsByClassName("collapsible");
+	var i;
+
+	for (i = 0; i < coll.length; i++) {
+  	coll[i].addEventListener("click", function() {
+    	this.classList.toggle("active");
+    	var content = this.nextElementSibling;
+    	if (content.style.maxHeight){
+      	content.style.maxHeight = null;
+    	} else {
+      	content.style.maxHeight = content.scrollHeight + "px";
+    	}
+  	});
+	}
+	</script>
+
+  <div class="details">
+    <div class="container">
+      <h1>Details</h1>
+      <ul>
+        <li>Current Version: 2.9.9</li>
+        <li>Last Updated: Sept 20th 2024</li>
+      </ul>
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+</body>
+</html>

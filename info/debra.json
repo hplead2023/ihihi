@@ -1,0 +1,362 @@
+{
+	"minVersion": "0.1",
+	"class": "DepictionTabView",
+	"tintColor": "#00A76A",
+	"headerImage": "https://sudo9000.github.io/info/debra.png",
+	"tabs": [
+		{
+			"tabname": "Details",
+			"class": "DepictionStackView",
+			"tintColor": "#00A76A",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": true,
+					"title": "Description"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Deb Repackaging Assistant. Simply type 'debra' into a terminal.",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "Features"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>Easily select from list of installed Tweaks</li>\n<li>Repack installed Tweaks into .deb</li>\n<li>Uninstall existing Tweaks</li>\n<li>Easily select from list of saved Debs</li>\n<li>Extract saved Debs</li>\n<li>Install saved Debs</li>\n<li>Display installed Tweak count and saved Deb count</li>\n<li>"More" menu option for additional actions</li>\n<li>Export tweak list</li>\n<li>Fix DPKG LOCKED error in package managers</li>\n<li>Auto-launches Filza to Debra folder after repacking or extracting</li>\n<li>Includes a CC button to quickly launch to Debra folder</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "Known Issues"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>Layout may be distorted depending on screensize if font is too big</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "Information"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"title": "Developers",
+					"text": "Sudo & Paisseon"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"title": "Version",
+					"text": "2.6.7"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"title": "Price",
+					"text": "Free"
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 16
+				},
+				{
+					"class": "DepictionStackView",
+					"views": [
+						{
+							"class": "DepictionTableButtonView",
+							"title": "CyPwn's Discord",
+							"action": "https://discord.com/invite/cZ2gBRZvwW",
+							"openExternal": false
+						}
+					]
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 16
+				}
+			]
+		},
+		{
+			"tabname": "Changelog",
+			"class": "DepictionStackView",
+			"tintColor": "#00A76A",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "2.6.7"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>Added a slow-down pause (mainly due to Xina issues) so errors can be read when installing or uninstalling, rather than instantly clearing from screen</li>\n<li>No longer requires CyDown folder for saved debs. A new savedDebs folder will be created in Debra directory automatically, and will be symlinked to CyDown folder if one exists</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "2.6.6"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul><li>Added iOS 15 support for Xina and Fugu15</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "2.6.5"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul><li>Added support for extracting debs with .tar.zst compression</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "2.6.4"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>Added a "More" menu option</li>\n<li>Export tweak list</li>\n<li>Few other small actions in "More" menu option</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "2.6.3"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul><li>bug fixes</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "2.6.2"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul><li>bug fixes</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "2.6.1"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>Added 2 new argument options</li>\n<li>debra -f : fixes dpkg locked errors</li>\n<li>debra -h : help/usage display</li>\n<li>other small fixes</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "2.6"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>Added 2 new argument options</li>\n<li>debra -f : fixes dpkg locked errors</li>\n<li>debra -h : help/usage display</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "2.5"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>Small aesthetic frame fix</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "2.4"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>Fixed filters sometimes using wrong selection if the filename contained a same number as the result number</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "2.3"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>Updated to auto-launch Filza into Debra folder directly from CLI after repacking or extracting</li>\n<li>Added CC button quick launcher</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "2.2"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>General script cleanup and small visual fixes</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "2.1"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>Now runs with super user permissions (no longer requires sudo or root user for all functions to work)</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "2.0"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>Fixed crucial DEBIAN files being missed when re-packaging tweaks such as preinst, postinst, prerm, postrm, extrainst_ and control-e files when applicable</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "1.9"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>Added the option to Respring or uicache after installing or uninstalling</li>\n<li>Fixed a bug causing selections from Deb menu to choose wrong debs if the filename contained spaces</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "1.8"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>Fixed missing version in filename output when repacking deb</li>\n<li>Removed extension from directory name output when extracting deb</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "1.7"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>Fixed error controlling when no filtered results</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "1.6"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>Added filter options when displaying lists 1 and 4</li>\n<li>Removed force root test from v1.5</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "1.5"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>Root test</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "1.4"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>Fixed a redirect issue</li>\n<li>New Colors and Layout</li>\n<li>Added deb install and tweak uninstall option</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "1.3"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>Fixed a redirect issue from 1.2</li>\n<li>New layout</li>\n<li>Added more options</li>\n<li>Now compatible with all fonts. Removed previous font packages</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "1.2"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>New layout</li>\n<li>Added more options</li>\n<li>Now compatible with all fonts. Removed previous font packages</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "1.1"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>Re-spaced layout to allow for slightly larger font size</li>\n<li>Fixed For loop on files and directories with spaces</li>\n<li>Added Recommended Font packages for use with NewTerm</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "1.0"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>Initial release</li></ul>",
+					"useRawFormat": true
+				}
+			]
+		}
+	]
+}

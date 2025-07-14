@@ -1,0 +1,154 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sudo's Repo</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+  </style>
+</head>
+
+<body>
+
+  <div id="navbar">
+    <div class="container">
+      <img src="assets/sudo.png" alt="HTML5 Icon" width="40" height="40" id="navbar-icon">
+      <h6 id="navbar-title">sudo9000</h6>
+    </div>
+  </div>
+
+	<div class="separator" style="background-color: #42566A; height: 1px; width:100%; transform: translateY(0px);"></div>
+
+  <br>
+
+  <div class="banner">
+    <div class="container">
+      <img src="assets/banner.png">
+    </div>
+  </div>
+
+  <div class="about">
+    <div class="container">
+		  <h1>TermColors</h1>
+		  <h6>Bring life to your terminal!</h6>
+      <p>Bash and Zsh setup with colorized prompt, text, dircolors, cat (bat) syntax highlighting and nano colors. Random color prompt generator by typing 'random' in your terminal. Supports ALL jailbreaks, both rootful and rootless, in a single package. XinaA15 and Dopamine now fully supported. Temporary 'sudo' and 'su' fix for Xina using 'toor' command.</p>
+		</div>
+  </div>
+
+	<div class="separator" style="background-color: #42566A; height: 1px; width:100%; transform: translateY(0px);"></div>
+
+	<button class="collapsible">Features</button>
+	<div class="features">
+		<p>• Supports Bash and Zsh</p>
+		<p>• Color prompt</p>
+		<p>• Text colors</p>
+		<p>• Directory colors</p>
+		<p>• Syntax highlighting for 'cat'ting files (uses 'bat' automatically)</p>
+		<p>• Syntax highlighting for nano editor</p>
+		<p>• Random color prompt generator (type 'random' or permanently make it random each startup)</p>
+		<p>• Handy bash environment variables, like PS1 prompt directory shortening with DIRTRIM to save screen real estate</p>
+		<p>• Supports all jailbreaks, rootful and rootless, including XinaA15 and Dopamine</p>
+		<p>• Switch to root using 'toor' command (root backwards)</p>
+		<p>• Temporary sudo fix for Xina users by aliasing sudo and su to 'toor'</p>
+		<p>• Convenience fixes for a variety of common rootless issues on Xina and Dopamine such as perl lang, curl, wget, and ssl cacert pathing</p>
+  </div>
+
+	<div class="separator" style="background-color: #42566A; height: 1px; width:100%; transform: translateY(0px);"></div>
+
+	<div class="screenshots">
+  	<div class="container">
+			<h1>&#8592; Screenshots &#8594;</h1>
+			<br>
+    	<ul>
+      	<li><a href="assets/termcolors1.png"><img src="assets/termcolors1.png" draggable="false"></a></li>
+      	<li><a href="assets/termcolors2.png"><img src="assets/termcolors2.png" draggable="false"></a></li>
+      	<li><a href="assets/termcolors3.png"><img src="assets/termcolors3.png" draggable="false"></a></li>
+    	</ul>
+  	</div>
+	</div>
+
+	<br>
+
+  <div class="separator" style="background-color: #42566A; height: 1px; width:100%; transform: translateY(0px);"></div>
+
+	<button class="collapsible">Changelog</button>
+	<div class="changelog">
+		<h3>2.2.2</h3>
+		<p>Lots of updates</p>
+		<br>
+		<h3>2.1.2</h3>
+		<p>Changed filza installs to use bash for cleaner output</p>
+		<p>Changed default shell back to bash on Dopamine. All features of TermColors are still available with zsh if preferred</p>
+		<br>
+		<h3>2.1.1</h3>
+		<p>Fix for broken NewTerm on Dopamine 1.1.8</p>
+		<p>Added Zsh support</p>
+		<br>
+		<h3>2.1.0</h3>
+		<p>Full rootless support for Dopamine</p>
+		<br>
+		<h3>2.0.9</h3>
+		<p>Added wget fix for Xina</p>
+		<br>
+		<h3>2.0.8</h3>
+		<p>Perl environment variables added to assist Xina users and reduce perl errors</p>
+		<br>
+		<h3>2.0.7</h3>
+		<p>Temporary sudo fix for Xina users by aliasing sudo and su to 'toor'</p>
+		<br>
+		<h3>2.0.6</h3>
+		<p>Removed conflicting environment variables</p>
+		<br>
+		<h3>2.0.5</h3>
+		<p>Full XinaA15 support in NewTerm3</p>
+		<p>Root CLI access via 'toor' command</p>
+		<br>
+		<h3>1.0</h3>
+		<p>Initial release</p>
+	</div>
+
+  <div class="separator" style="background-color: #42566A; height: 1px; width:100%; transform: translateY(0px);"></div>
+
+	<button class="collapsible">Dependencies</button>
+	<div class="dependencies">
+    <p>mobilesubstrate</p>
+  </div>
+
+  <div class="separator" style="background-color: #42566A; height: 1px; width:100%; transform: translateY(0px);"></div>
+
+	<script>
+	var coll = document.getElementsByClassName("collapsible");
+	var i;
+
+	for (i = 0; i < coll.length; i++) {
+  	coll[i].addEventListener("click", function() {
+    	this.classList.toggle("active");
+    	var content = this.nextElementSibling;
+    	if (content.style.maxHeight){
+      	content.style.maxHeight = null;
+    	} else {
+      	content.style.maxHeight = content.scrollHeight + "px";
+    	}
+  	});
+	}
+	</script>
+
+  <div class="details">
+    <div class="container">
+      <h1>Details</h1>
+      <ul>
+        <li>Current Version: 2.2.2</li>
+        <li>Last Updated: July 26th 2024</li>
+      </ul>
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+</body>
+</html>

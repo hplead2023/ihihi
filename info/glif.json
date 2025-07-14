@@ -1,0 +1,208 @@
+{
+	"minVersion": "0.1",
+	"class": "DepictionTabView",
+	"tintColor": "#00A76A",
+	"headerImage": "https://sudo9000.github.io/info/glificon.png",
+	"tabs": [
+		{
+			"tabname": "Details",
+			"class": "DepictionStackView",
+			"tintColor": "#00A76A",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": true,
+					"title": "Description"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Glyph style themes. Mix and Match Icon Sets. Choose 1 or use all together. Arrange the priority order of Icon sets 1, 2, 3, 4 etc in Snowboard when used together. Highest priority goes to top of order arrangement. Best to use all together to fill the gap of missing icons. Use Glif icons by themself or with any of the included Icon BG colors with shadow AE effect. Enable only 1 BG color at a time.",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "Features"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>5,000+ Glyph Icons</li>\n<li><li>Various icon sets that can be mixed and matched with each other using Snowboard priority arrangement</li>\nSettings Icons</li>\n<li>Respring Animations</li>\n<li>Boot Logo</li>\n<li>Custom Clock Icon</li>\n<li>Multiple Icon BG colors with Shadow AE effects</li>\n<li>Plus More!</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "Information"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"title": "Developers",
+					"text": "Sudo"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"title": "Version",
+					"text": "2.5"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"title": "Price",
+					"text": "Free"
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 16
+				},
+				{
+					"class": "DepictionStackView",
+					"views": [
+						{
+							"class": "DepictionTableButtonView",
+							"title": "CyPwn's Discord",
+							"action": "https://discord.com/invite/cZ2gBRZvwW",
+							"openExternal": false
+						}
+					]
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 16
+				}
+			]
+		},
+		{
+			"tabname": "Changelog",
+			"class": "DepictionStackView",
+			"tintColor": "#00A76A",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "2.5"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>More icons</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "2.4-9"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>More icons</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "2.4-8"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>More icons</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "2.4-7"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>More icons</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "2.4-6"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>2 new passcode & dialer keypad UIs</li>\n<li>3 new respring logos</li>\n<li>Loads of new icons added including many TrollStore apps</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "2.4-1"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>Added more glyph icon sets</li>\n<li>Added more BG colors</li>\n<li>Many new icons added</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "2.2"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>Added a 6th icon set</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "2.1"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>Added a 5th icon set</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "2.0"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>Added 4 separate icon sets that can be mixed and matched with each other using Snowboard priority arrangement</li>\n<li>Added more Icon BG colors</li>\n<li>Added Boot Logo</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "1.0.1"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>Added more icons</li>\n<li>Added light and dark icon BG options</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "1.0"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>Initial release</li></ul>",
+					"useRawFormat": true
+				}
+			]
+		}
+	]
+}

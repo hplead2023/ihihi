@@ -1,0 +1,140 @@
+Package: com.sudo.autotouchcnvrt
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Sudo
+Installed-Size: 420
+Depends: firmware (>=11.0), mobilesubstrate, com.opa334.ccsupport, sed, xyz.cypwn.autotouch | me.autotouch.autotouch.ios8
+Filename: debs/com.sudo.autotouchcnvrt_1.0_iphoneos-arm.deb
+Size: 58330
+MD5sum: 36ccd3c34a87cdc47487437fadc62a0b
+SHA1: 149c8df25e29357f71a57d82910f9030c02cb25c
+SHA256: 304e11908969b54ea004a53c33af21aff8ab1036392131769d1d65c60dd8e464
+Section: Tweaks
+Description: Control Center module to convert AutoTouch scripts from .js to .lua
+Author: Sudo
+Depiction: https://sudo9000.github.io/info/autotouchcnvrt.html
+Icon: https://sudo9000.github.io/info/autotouchcnvrt.png
+Name: AutoTouch Convert CC Module
+Sileodepiction: https://sudo9000.github.io/info/autotouchcnvrt.json
+
+Package: com.sudo.debra
+Version: 2.9.9
+Architecture: iphoneos-arm64
+Maintainer: Sudo
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), gzip, sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Filename: debs/com.sudo.debra_2.9.9_iphoneos-arm64.deb
+Size: 24316
+MD5sum: b97e9db16f43f66b17e72a2707277616
+SHA1: a10cb219666b4591c2e14e531495ebdd8db84a9f
+SHA256: 9d8dd39bab8f3e336b7fd3cc73ac6c2dd5a3b38c2f136b6cee6dd0e31cfb7d23
+Section: Utilities
+Description: Deb Repackaging Assistant. Simply type 'debra' into a terminal.
+Author: Sudo
+Depiction: https://sudo9000.github.io/depictions/debra/index.html
+Icon: https://sudo9000.github.io/depictions/debra/assets/icon.png
+Name: Debra
+
+Package: com.sudo.debra
+Version: 2.9.9
+Architecture: iphoneos-arm
+Maintainer: Sudo
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), gzip, sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Filename: debs/com.sudo.debra_2.9.9_iphoneos-arm.deb
+Size: 22784
+MD5sum: ecbf5208b0a15997c21d012281348efe
+SHA1: 938b05aea4d6459b48662c45e1cb6dd81fa0f8d1
+SHA256: b3b491b268abe2bd88f0a18013486b5d66458e1900fa6439ad6cb585b6f06c78
+Section: Utilities
+Description: Deb Repackaging Assistant. Simply type 'debra' into a terminal.
+Author: Sudo
+Depiction: https://sudo9000.github.io/depictions/debra/index.html
+Icon: https://sudo9000.github.io/depictions/debra/assets/icon.png
+Name: Debra
+
+Package: com.sudo.glif
+Version: 2.4-9
+Architecture: iphoneos-arm
+Maintainer: Sudo
+Filename: debs/com.sudo.glif_2.4-9_iphoneos-arm.deb
+Size: 86817468
+MD5sum: 31e6845affdda243fca6a6cde8ccb980
+SHA1: 0cc4e06ae5df36002dc1b1c919a3b8d481ff6ece
+SHA256: 7a502bc9c50ae5b2abf7dad8e1375640c8107d65f0269057a171cfa87d56fa59
+Section: Themes
+Description: Glyph style themes. Mix and Match Icon Sets. Choose 1 or use all Icon sets together. Arrange the priority order of Icon sets 1, 2, 3, 4, etc in Snowboard when used together. Highest priority goes to top of order arrangement. Best to use all together to fill the gap of missing icons. Use Glif icons by themself or with any of the included Icon BG colors with shadow AE effect. Enable only 1 icon BG color at a time.
+Author: Sudo
+Depiction: https://sudo9000.github.io/info/glif.html
+Icon: https://sudo9000.github.io/info/glificon.png
+Name: Glif
+Sileodepiction: https://sudo9000.github.io/info/glif.json
+
+Package: com.sudo.lightspinnyrgb
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Sudo <sudo9000@outlook.com>
+Depends: mobilesubstrate
+Filename: debs/com.sudo.lightspinnyrgb_1.0_iphoneos-arm.deb
+Size: 300458
+MD5sum: 6c1eb4952e635bcc4b3e950aa7a2e584
+SHA1: d4bcbfbac1d0e285482a2d12590a660a934df6de
+SHA256: e24cc6b7c1606e2e66a1f8a1d5cc0288eac3d2033c9f33cdebdf4ef8c8073ce3
+Section: Themes
+Description: Original respring logo in color!
+Author: Sudo <sudo9000@outlook.com>
+Depiction: https://sudo9000.github.io/info/lightspinnyrgb.html
+Icon: https://sudo9000.github.io/info/lightspinnyrgb.png
+Name: lightspinnyRGB
+Sileodepiction: https://sudo9000.github.io/info/lightspinnyrgb.json
+
+Package: com.sudo.noads4yahoomail
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Sudo <sudo9000@outlook.com>
+Depends: mobilesubstrate
+Filename: debs/com.sudo.noads4yahoomail_1.0_iphoneos-arm.deb
+Size: 5712
+MD5sum: 19ba586987995b26ca6c211d26b2d6f2
+SHA1: 9fef5c985d2df1db2e16df4262ce636aba5bed26
+SHA256: bf475e880f19cffc9d2d504de05979a6c0d6ec7e7caf0bafa9135946e8446200
+Section: Tweaks
+Description: Removes all Ads from Yahoo Mail app. For use with Yahoo Mail app from App Store. No options to configure.
+Author: Sudo <sudo9000@outlook.com>
+Depiction: https://sudo9000.github.io/info/noads4yahoomail.html
+Icon: https://sudo9000.github.io/info/noads4yahoomail.png
+Name: NoAds4YahooMail
+Sileodepiction: https://sudo9000.github.io/info/noads4yahoomail.json
+
+Package: com.sudo.termcolors
+Version: 2.2.2
+Architecture: iphoneos-arm64
+Maintainer: Sudo
+Depends: mobilesubstrate
+Filename: debs/com.sudo.termcolors_2.2.2_iphoneos-arm64.deb
+Size: 2078420
+MD5sum: df90284b48b753d2b401d260e61731a6
+SHA1: 47261f65f338fb9bfac9d27bd0543d375298ed47
+SHA256: c06f391f78968446b674eb22149d2a04c79f7d577218c345345abb1eb814009f
+Section: Utilities
+Description: Bash and Zsh setup with colorized prompt, text, dircolors, cat (bat) syntax highlighting and nano colors. Random color prompt generator by typing 'random' in your terminal.
+Author: Sudo
+Depiction: https://sudo9000.github.io/depictions/termcolors/index.html
+Icon: https://sudo9000.github.io/depictions/termcolors/assets/icon.png
+Name: Term Colors
+
+Package: com.sudo.termcolors
+Version: 2.2.2
+Architecture: iphoneos-arm
+Maintainer: Sudo
+Depends: mobilesubstrate
+Filename: debs/com.sudo.termcolors_2.2.2_iphoneos-arm.deb
+Size: 2708318
+MD5sum: 911e71307b80e312ea42e26df933f9e2
+SHA1: 32ba4c63f0d1fe6f5792e188ef121fd41194aee7
+SHA256: c33d9e0e3036252ab1831c53384823eab992227eef1e181a0f3ba8d92c510ac2
+Section: Utilities
+Description: Bash and Zsh setup with colorized prompt, text, dircolors, cat (bat) syntax highlighting and nano colors. Random color prompt generator by typing 'random' in your terminal.
+Author: Sudo
+Depiction: https://sudo9000.github.io/depictions/termcolors/index.html
+Icon: https://sudo9000.github.io/depictions/termcolors/assets/icon.png
+Name: Term Colors
+
