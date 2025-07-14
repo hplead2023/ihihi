@@ -1,11 +1,11 @@
-Origin: iFakePro
-Label: iFakePro
+Origin: iHihi
+Label: iHihi
 Suite: stable
 Version: 8
-Codename: iFakePro
+Codename: iHihi
 Architectures: iphoneos-arm iphoneos-arm64
 Components: main
-Description: iFakePro
+Description: iHihi
 8a27ac97edf73a05c7d8e56c6b3de50d071181d068c72ad9c6a12be1fa62d9c8  Packages.bz2
 5182336a35f35ab06aded72917563c8c273d4f94ed705cdbc4a8d10d80afa2c2  Packages.gz
 620618fa1a8315942e624292fdf4b349e051a85c57bfe2e0814db8a94ef33815  Packages.xz
