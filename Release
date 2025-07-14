@@ -1,12 +1,18 @@
-Origin: iHihi
-Label: iHihi
+Origin: iHihi Repo
+Label: iHihi Repo
 Suite: stable
-Version: 8
-Codename: iHihi
+Version: 1.0
+Codename: Sudo
 Architectures: iphoneos-arm iphoneos-arm64
 Components: main
-Description: iHihi
-8a27ac97edf73a05c7d8e56c6b3de50d071181d068c72ad9c6a12be1fa62d9c8  Packages.bz2
-5182336a35f35ab06aded72917563c8c273d4f94ed705cdbc4a8d10d80afa2c2  Packages.gz
-620618fa1a8315942e624292fdf4b349e051a85c57bfe2e0814db8a94ef33815  Packages.xz
-ef12912e5d3fbc962ce0e6b788b4fdaaf27888ff3906c21ebc8b047246f93309  Packages.zst
+Description: A place for iOS iHihi Tweaks.
+MD5Sum:
+ 5b98a34cfda114c20a4d9fda371a0a80 24651 Packages
+ 7be0919ee0bb8ee5ea774f5d811487de 7913 Packages.bz2
+ 5b7e76d2f46cff341aaacca83b13b386 8169 Packages.gz
+ 13d701f8bdb56ed278bfdad63f9807e3 7818 Packages.zst
+SHA256:
+ cc85d07fc175a36cb3ffff31b9ce6573f3adb781b29b167ba1c78ad0955e1777 24651 Packages
+ d4b40ac6a581530a62be1fdb5de94de2dfa72a856b63ca8c98dd20797b3a8040 7913 Packages.bz2
+ e2844d8b56163d62cbb0f4d3361ddddfe24bd75a12e7a19a9980e6b1f8d92912 8169 Packages.gz
+ 3562f4294c15fffe643d6c64b309ec476f5d80f3ff59e45e54b0f33415360d6b 7818 Packages.zst

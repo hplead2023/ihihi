@@ -1,461 +1,625 @@
 Package: com.cannathea.afc2d-arm64
-Architecture: iphoneos-arm
 Version: 1.2.0
-Section: System
+Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 292
-Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: cy+cpu.arm64, mobilesubstrate, firmware (>= 11.0)
 Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
 Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Filename: ./debs/afc2kppless_1.2.0.deb
+Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Filename: debs/afc2kppless_1.2.0.deb
 Size: 15314
 MD5sum: 2e514b930af7f2f7e3c9012f1efa9829
 SHA1: a7e9ff53c217eaa7fe270c0a9ae99715a85ffbab
 SHA256: a7ed755554d9d204dd40e5a87c58f82ce1fe4a5aecea1b993f48a4e66888c71f
-SHA512: bd2ca0560aa164c31099d53f63958fc563823cbc6a6ea713e0916271ac3dfc98030e036ffdbbc4eeb1fabf232062aecc8bc65868b6219c92c11a688b8df02a9a
+Section: System
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
 Description: Allow full file-system access over USB for all arm64 devices, especially useful for those on iOS 11 and above. Please install ldid as it is required for use. (except for the XinaA15 jailbreak)
 Tag: purpose::daemon
 Author: saurik, Cannathea <csupport@cannathea.com>
-Name: Apple File Conduit "2" (iOS 11+, arm64)
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
+Dev: cannathea
+Name: Apple File Conduit "2" (iOS 11+, arm64)
 Sponsor: thebigboss.org <http://thebigboss.org>
-dev: cannathea
-
-Package: com.opa334.altlist
-Architecture: iphoneos-arm
-Version: 1.0.11
-Section: Development
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 305
-Depends: firmware (>= 7.0)
-Filename: ./debs/altlist_1.0.11.deb
-Size: 47212
-MD5sum: b2dc2a7d981c7e82d724b4b4649e9850
-SHA1: 678f956bc11bd47067a25e46c0ef9481f18052e1
-SHA256: 9527dd050119175cd6e1062a3fe965d4a0359bd5b657148eb07cd59bd524dfdc
-SHA512: 75fde7c1169e53e6e1196d5ae607314cb1553d03ea89821b7905dad10d4efd5668c41d0d2efccdae54dc09c7c27dcbf2184b3881bcb8379e8f3f991ad72d6ba5
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
-Description: A modern AppList alternative
-Tag: purpose::library
-Author: opa334 <opa334@protonmail.com>
-Name: AltList
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: opa334
-
-Package: com.opa334.choicy
-Architecture: iphoneos-arm
-Version: 1.5.2-2
-Section: Tweaks
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 1351
-Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist (>= 1.0.4)
-Filename: ./debs/choicy_1.5.2-2.deb
-Size: 257326
-MD5sum: 8a9cb6aeee71b28366715a0a65ccd748
-SHA1: b02c4107a6a2f25d805cdee8e01c08f09b66538a
-SHA256: 52183996011d183c10f966c137928df14b130057b7786dec560edd9c0c469f8a
-SHA512: 5d99b0d97c153e5a2076c0925671ba5efc0a03fd4ae8648d644e273e241614043729eed68deceb64feb99fe2c190b58576b1d20a3c28b94721286544965d65e2
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
-Description: Advanced Tweak Configuration!
-Tag: purpose::extension
-Author: opa334 <opa334@protonmail.com>
-Name: Choicy
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: opa334
-Icon: file:///Library/PreferenceBundles/ChoicyPrefs.bundle/ChoicyIcon@2x.png
 
 Package: com.cokepokes.appstoreplusplus
-Architecture: iphoneos-arm
 Version: 0.10.1-5
-Priority: optional
-Section: Tweaks
+Architecture: iphoneos-arm
 Maintainer: CokePokes
 Depends: firmware (>= 11.0), mobilesubstrate
 Conflicts: com.unlimapps.uaupdatetools
-Replaces:
-Filename: ./debs/com.cokepokes.appstoreplusplus_0.10.1-5_iphoneos-arm.deb
+Filename: debs/com.cokepokes.appstoreplusplus_0.10.1-5_iphoneos-arm.deb
 Size: 4636364
 MD5sum: 1439e142bcdec4582b9ac8bccc112e4a
 SHA1: c252051616bade4de9d2ccc3a1ea7e29882488c8
 SHA256: 23bb2021da9b3fdaf5d947490f8ebff5c947d71a6966bf70e43c025c4916c8c7
-SHA512: 294f1f34127f0cbc73681510251652c3b4fa9e4c6ada6b2793e1f25c056e7f1e233cb4aba0eab9c8c9434cbf13863fc2f4f3728882550ec2dd2b1f2113b11550
-Homepage:
+Section: Tweaks
+Priority: optional
 Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-15.whatever
-Name: AppStore++
 Author: CokePokes
-dev:
 Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
 Icon: https://cokepokes.github.io/depiction/appstoreplus/icon.png
+Name: AppStore++
 
 Package: com.ex.substitute
-Architecture: iphoneos-arm
 Version: 2.3.2+2.g3e9b535
-Priority: optional
-Section: System
+Architecture: iphoneos-arm
 Maintainer: Sam Bingner
 Installed-Size: 27512
-Provides: com.ex.libsubstitute, mobilesubstrate (= 0.9.7033+dummy)
 Pre-Depends: coreutils-bin, dpkg (>=1.17.11)
 Depends: firmware (>= 8.0), cy+cpu.arm64, com.saurik.substrate.safemode (>=0.9.6005), uikittools (>=1.1.13-4), darwintools
 Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, science.xnu.substitute, mobilesubstrate, ws.hbang.stopcrashingpls (<<1.0.2)
 Breaks: com.saurik.substrate.safemode (<<0.9.6004)
 Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate
-Filename: ./debs/com.ex.substitute_2.3.2+2.g3e9b535_iphoneos-arm.deb
+Provides: com.ex.libsubstitute, mobilesubstrate (= 0.9.7033+dummy)
+Filename: debs/com.ex.substitute_2.3.2+2.g3e9b535_iphoneos-arm.deb
 Size: 7419452
 MD5sum: 63b5d0bded3a301fd099662d7ef5f470
 SHA1: 371d6731d8743d0d1deeefcd991f3408512d06a5
 SHA256: 907839cb277215871eff87356c7127d386f964ee7cfdbfd8b7f9705083167d3f
-SHA512: 413b9f194b8ee624a39202c665a61d0534d2c9bbd61bcc6b69e37dfe299cf8de83c8f1fb37e9b36f587c2e8f2bbb086a42cd451ad74bc94d21be3b03bcf9a348
+Section: System
+Priority: optional
 Description: Substrate substitute for code substitution
 Author: comex <comexk+da@gmail.com>
 Name: Substitute
 
-Package: com.opa334.libsandy
+Package: com.hihi.autodenypermissions
+Version: 1.0.0-16+debug
 Architecture: iphoneos-arm
+Maintainer: Hihi
+Installed-Size: 144
+Depends: firmware (>= 15.0)
+Filename: debs/com.hihi.autodenypermissions_1.0.0-16+debug_iphoneos-arm.deb
+Size: 335096
+MD5sum: fbb8671138d8369b70d687c89a980921
+SHA1: 8046b1d47a5a6eacb84d7a75d053a3a2a6768c8d
+SHA256: 5608cd7946ee19732771ef4bf5b0c2d100ffe420f304268fc09f9daac071b843
+Section: Tweaks
+Description: Tweak tự động từ chối tất cả yêu cầu cấp quyền trên iOS 15
+Author: Hihi
+Name: AutoDenyPermissions
+
+Package: com.opa334.altlist
+Version: 1.0.11
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 305
+Depends: firmware (>= 7.0)
+Filename: debs/altlist_1.0.11.deb
+Size: 47212
+MD5sum: b2dc2a7d981c7e82d724b4b4649e9850
+SHA1: 678f956bc11bd47067a25e46c0ef9481f18052e1
+SHA256: 9527dd050119175cd6e1062a3fe965d4a0359bd5b657148eb07cd59bd524dfdc
+Section: Development
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
+Description: A modern AppList alternative
+Tag: purpose::library
+Author: opa334 <opa334@protonmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
+Dev: opa334
+Name: AltList
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.opa334.choicy
+Version: 1.5.2-2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 1351
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist (>= 1.0.4)
+Filename: debs/choicy_1.5.2-2.deb
+Size: 257326
+MD5sum: 8a9cb6aeee71b28366715a0a65ccd748
+SHA1: b02c4107a6a2f25d805cdee8e01c08f09b66538a
+SHA256: 52183996011d183c10f966c137928df14b130057b7786dec560edd9c0c469f8a
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
+Description: Advanced Tweak Configuration!
+Tag: purpose::extension
+Author: opa334 <opa334@protonmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
+Dev: opa334
+Icon: file:///Library/PreferenceBundles/ChoicyPrefs.bundle/ChoicyIcon@2x.png
+Name: Choicy
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.opa334.libsandy
 Version: 1.1.4
-Section: System
+Architecture: iphoneos-arm
 Maintainer: opa334
 Installed-Size: 312
 Conflicts: ws.hbang.stopcrashingpls (<= 1.0.2)
-Filename: ./debs/com.opa334.libsandy_1.1.4_iphoneos-arm.deb
+Filename: debs/com.opa334.libsandy_1.1.4_iphoneos-arm.deb
 Size: 20546
 MD5sum: 25e8918d912d4ece138a221b6d5731a6
 SHA1: 970b4d73c793ae3561abac288347922818b9b0fe
 SHA256: e80b6573fec6cbe3d30274683d2df7692642c70546fe3321247328c97058d010
-SHA512: e8c1510edc4796dad9b843ad3c1a11a6bb3e988b2e84843ad076aa5d058cf949ea1a5d54045d0b240cb0b62284b8d9f46889469c16347ca353590f39b25e5e19
+Section: System
 Description: Securely extend the sandbox of system processes and user applications
 Tag: role::developer
-Name: libSandy
-Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
 Author: opa334
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Name: libSandy
 
 Package: com.pantsthief.flexing
-Architecture: iphoneos-arm
 Version: 1.5.0+rootful
-Section: Tweaks
+Architecture: iphoneos-arm
 Maintainer: Tanner Bennett <thepantsthief@me.com>
 Installed-Size: 284
 Pre-Depends: firmware (>= 8.0)
 Depends: libflex
 Conflicts: com.dgh0st.flexall, gg.gh0stbyte.flexivator, com.shmoopillic.flexible, applebetas.ios.tweak.devtools.flexgesture, com.creaturecoding.flexer, com.lacertosusrepo.flex4me, me.nepeta.flexxx, com.ipadkid.flexit, com.qiop1379.flexbar, com.leftyfl1p.reflex
-Filename: ./debs/com.pantsthief.flexing_1.5.0+rootful_iphoneos-arm.deb
+Filename: debs/com.pantsthief.flexing_1.5.0+rootful_iphoneos-arm.deb
 Size: 17908
 MD5sum: 4bc9f02ca14b4812d058bbf43a56b85b
 SHA1: 527be46096c546ef597f033fb711bb29c212a5d5
 SHA256: 548ddf4e815c80002866468d3e31f555ad0c6d2ff182d733f94139701fb9da9b
-SHA512: f364bd0faa9a2d4654db2839210acf028c3c792cce767bc576dd25d3e77ed5a48a6d4dc411d067fea5a46b8f1390c916977f36a42d175121cbf524ce499cbf9e
+Section: Tweaks
 Description: Open FLEX anywhere!
-Name: FLEXing
 Author: Tanner Bennett <thepantsthief@me.com>
 Depiction: https://nscake.github.io/package.html?package=com.pantsthief.flexing
-SileoDepiction: https://nscake.github.io/depictions/com.pantsthief.flexing.sileo.json
+Name: FLEXing
+Sileodepiction: https://nscake.github.io/depictions/com.pantsthief.flexing.sileo.json
+
+Package: com.rpetrich.rocketbootstrap
+Version: 1.1.0~libhooker2
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: org.coolstar.libhooker
+Filename: debs/rocketbootstrap_1.1.0~libhooker2-iphoneos-arm.deb
+Size: 10444
+MD5sum: baf051456b187d84a08c45129141a9ff
+SHA1: 4327f33c86f776a5005d95a5159234234d3f9ed0
+SHA256: 6c193c277b455339bea58ea5dd16675bed032f1c3abe8cdb569a80b925e1b3ac
+Section: Tweaks
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Tag: purpose::extension, role::developer
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Dev: rpetrich
+Name: RocketBootstrap
 
 Package: com.saurik.substrate.safemode
-Architecture: iphoneos-arm
 Version: 0.9.6005
-Priority: optional
-Section: Tweaks
+Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Installed-Size: 144
 Depends: mobilesubstrate (>= 0.9.3367+38)
 Conflicts: safe-mode-fixer-ios7
 Replaces: safe-mode-fixer-ios7
-Filename: ./debs/com.saurik.substrate.safemode_0.9.6005_iphoneos-arm.deb
+Filename: debs/com.saurik.substrate.safemode_0.9.6005_iphoneos-arm.deb
 Size: 22736
 MD5sum: 73e56c9f8209fc56c8852bfcfd5b23d7
 SHA1: 8bb7866945dac32ad68648ebf38ca343fa715b7d
 SHA256: de3f3c5e0bfde32d61e14daaca7a7899a73215f94753a77fca1aa4203b018c87
-SHA512: 96bc00fdd620d18beff17ff73835baf264832f9ada2eaf01b641362a8a9641d2d31e48c91f1c3062d09a62c6cf37903cf511d5c6a2e03e1427d33927197fc1f0
+Section: Tweaks
+Priority: optional
 Description: safe mode safety extension (safe)
 Author: Jay Freeman (saurik) <saurik@saurik.com>
-Name: Substrate Safe Mode
 Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
+Name: Substrate Safe Mode
+
+Package: com.sudo.autotouchcnvrt
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Sudo
+Installed-Size: 420
+Depends: firmware (>=11.0), mobilesubstrate, com.opa334.ccsupport, sed, xyz.cypwn.autotouch | me.autotouch.autotouch.ios8
+Filename: debs/com.sudo.autotouchcnvrt_1.0_iphoneos-arm.deb
+Size: 58330
+MD5sum: 36ccd3c34a87cdc47487437fadc62a0b
+SHA1: 149c8df25e29357f71a57d82910f9030c02cb25c
+SHA256: 304e11908969b54ea004a53c33af21aff8ab1036392131769d1d65c60dd8e464
+Section: Tweaks
+Description: Control Center module to convert AutoTouch scripts from .js to .lua
+Author: Sudo
+Depiction: https://sudo9000.github.io/info/autotouchcnvrt.html
+Icon: https://sudo9000.github.io/info/autotouchcnvrt.png
+Name: AutoTouch Convert CC Module
+Sileodepiction: https://sudo9000.github.io/info/autotouchcnvrt.json
+
+Package: com.sudo.debra
+Version: 2.9.9
+Architecture: iphoneos-arm64
+Maintainer: Sudo
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), gzip, sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Filename: debs/com.sudo.debra_2.9.9_iphoneos-arm64.deb
+Size: 24316
+MD5sum: b97e9db16f43f66b17e72a2707277616
+SHA1: a10cb219666b4591c2e14e531495ebdd8db84a9f
+SHA256: 9d8dd39bab8f3e336b7fd3cc73ac6c2dd5a3b38c2f136b6cee6dd0e31cfb7d23
+Section: Utilities
+Description: Deb Repackaging Assistant. Simply type 'debra' into a terminal.
+Author: Sudo
+Depiction: https://sudo9000.github.io/depictions/debra/index.html
+Icon: https://sudo9000.github.io/depictions/debra/assets/icon.png
+Name: Debra
+
+Package: com.sudo.debra
+Version: 2.9.9
+Architecture: iphoneos-arm
+Maintainer: Sudo
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), gzip, sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Filename: debs/com.sudo.debra_2.9.9_iphoneos-arm.deb
+Size: 22784
+MD5sum: ecbf5208b0a15997c21d012281348efe
+SHA1: 938b05aea4d6459b48662c45e1cb6dd81fa0f8d1
+SHA256: b3b491b268abe2bd88f0a18013486b5d66458e1900fa6439ad6cb585b6f06c78
+Section: Utilities
+Description: Deb Repackaging Assistant. Simply type 'debra' into a terminal.
+Author: Sudo
+Depiction: https://sudo9000.github.io/depictions/debra/index.html
+Icon: https://sudo9000.github.io/depictions/debra/assets/icon.png
+Name: Debra
+
+Package: com.sudo.glif
+Version: 2.4-9
+Architecture: iphoneos-arm
+Maintainer: Sudo
+Filename: debs/com.sudo.glif_2.4-9_iphoneos-arm.deb
+Size: 86817468
+MD5sum: 31e6845affdda243fca6a6cde8ccb980
+SHA1: 0cc4e06ae5df36002dc1b1c919a3b8d481ff6ece
+SHA256: 7a502bc9c50ae5b2abf7dad8e1375640c8107d65f0269057a171cfa87d56fa59
+Section: Themes
+Description: Glyph style themes. Mix and Match Icon Sets. Choose 1 or use all Icon sets together. Arrange the priority order of Icon sets 1, 2, 3, 4, etc in Snowboard when used together. Highest priority goes to top of order arrangement. Best to use all together to fill the gap of missing icons. Use Glif icons by themself or with any of the included Icon BG colors with shadow AE effect. Enable only 1 icon BG color at a time.
+Author: Sudo
+Depiction: https://sudo9000.github.io/info/glif.html
+Icon: https://sudo9000.github.io/info/glificon.png
+Name: Glif
+Sileodepiction: https://sudo9000.github.io/info/glif.json
+
+Package: com.sudo.lightspinnyrgb
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Sudo <sudo9000@outlook.com>
+Depends: mobilesubstrate
+Filename: debs/com.sudo.lightspinnyrgb_1.0_iphoneos-arm.deb
+Size: 300458
+MD5sum: 6c1eb4952e635bcc4b3e950aa7a2e584
+SHA1: d4bcbfbac1d0e285482a2d12590a660a934df6de
+SHA256: e24cc6b7c1606e2e66a1f8a1d5cc0288eac3d2033c9f33cdebdf4ef8c8073ce3
+Section: Themes
+Description: Original respring logo in color!
+Author: Sudo <sudo9000@outlook.com>
+Depiction: https://sudo9000.github.io/info/lightspinnyrgb.html
+Icon: https://sudo9000.github.io/info/lightspinnyrgb.png
+Name: lightspinnyRGB
+Sileodepiction: https://sudo9000.github.io/info/lightspinnyrgb.json
+
+Package: com.sudo.noads4yahoomail
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Sudo <sudo9000@outlook.com>
+Depends: mobilesubstrate
+Filename: debs/com.sudo.noads4yahoomail_1.0_iphoneos-arm.deb
+Size: 5712
+MD5sum: 19ba586987995b26ca6c211d26b2d6f2
+SHA1: 9fef5c985d2df1db2e16df4262ce636aba5bed26
+SHA256: bf475e880f19cffc9d2d504de05979a6c0d6ec7e7caf0bafa9135946e8446200
+Section: Tweaks
+Description: Removes all Ads from Yahoo Mail app. For use with Yahoo Mail app from App Store. No options to configure.
+Author: Sudo <sudo9000@outlook.com>
+Depiction: https://sudo9000.github.io/info/noads4yahoomail.html
+Icon: https://sudo9000.github.io/info/noads4yahoomail.png
+Name: NoAds4YahooMail
+Sileodepiction: https://sudo9000.github.io/info/noads4yahoomail.json
+
+Package: com.sudo.termcolors
+Version: 2.2.2
+Architecture: iphoneos-arm
+Maintainer: Sudo
+Depends: mobilesubstrate
+Filename: debs/com.sudo.termcolors_2.2.2_iphoneos-arm.deb
+Size: 2708318
+MD5sum: 911e71307b80e312ea42e26df933f9e2
+SHA1: 32ba4c63f0d1fe6f5792e188ef121fd41194aee7
+SHA256: c33d9e0e3036252ab1831c53384823eab992227eef1e181a0f3ba8d92c510ac2
+Section: Utilities
+Description: Bash and Zsh setup with colorized prompt, text, dircolors, cat (bat) syntax highlighting and nano colors. Random color prompt generator by typing 'random' in your terminal.
+Author: Sudo
+Depiction: https://sudo9000.github.io/depictions/termcolors/index.html
+Icon: https://sudo9000.github.io/depictions/termcolors/assets/icon.png
+Name: Term Colors
+
+Package: com.sudo.termcolors
+Version: 2.2.2
+Architecture: iphoneos-arm64
+Maintainer: Sudo
+Depends: mobilesubstrate
+Filename: debs/com.sudo.termcolors_2.2.2_iphoneos-arm64.deb
+Size: 2078420
+MD5sum: df90284b48b753d2b401d260e61731a6
+SHA1: 47261f65f338fb9bfac9d27bd0543d375298ed47
+SHA256: c06f391f78968446b674eb22149d2a04c79f7d577218c345345abb1eb814009f
+Section: Utilities
+Description: Bash and Zsh setup with colorized prompt, text, dircolors, cat (bat) syntax highlighting and nano colors. Random color prompt generator by typing 'random' in your terminal.
+Author: Sudo
+Depiction: https://sudo9000.github.io/depictions/termcolors/index.html
+Icon: https://sudo9000.github.io/depictions/termcolors/assets/icon.png
+Name: Term Colors
 
 Package: com.tigisoftware.filza
-Architecture: iphoneos-arm
 Version: 4.0.1-3
-Priority: optional
-Section: Utilities
+Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 31815
 Depends: firmware (>= 7.0), zip, unzip, gzip, unrar, p7zip
 Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza39
-Filename: ./debs/filza_4.0.1-3.deb
+Filename: debs/filza_4.0.1-3.deb
 Size: 10215790
 MD5sum: 60322f74b0e669a35c04e3d864241e1e
 SHA1: 5f55e3c714ee9e81bad34bebb279201490014bd6
 SHA256: 4482445297cce926faede628d911bfc99ec0de5fafcea94e569dc59f6c169341
-SHA512: 1658df37f6657cc9b810d9b20009e8dc0da1893a1dc357aadc0e6594e5ef3f5d7ef05809dd3e4b4b6e1fa71c192f4854b9f575ed0f0f9c9520146206ae28b51d
+Section: Utilities
+Priority: optional
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=filzafilemanagerDp
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
 Tag: purpose::uikit
-Name: Filza File Manager
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=filzafilemanagerDp
-Sponsor: thebigboss.org <http://thebigboss.org>
 Author: TIGI Software <satashi2009@gmail.com>
-dev: satashi2009
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=filzafilemanagerDp
+Dev: satashi2009
 Icon: file:///Applications/Filza.app/AppIcon57x57.png
+Name: Filza File Manager
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: ifakepro
+Version: 8.26.24
 Architecture: iphoneos-arm
-Version: 8.26.25
-Section: Utilities
 Maintainer: iFakePro V8
 Installed-Size: 9068
 Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader (>= 2.2.2), zip, libplist3, ldid, com.rpetrich.rocketbootstrap
-Filename: ./debs/ifakepro_8.26.25_iphoneos-arm.deb
-Size: 2609656
-MD5sum: 6cf6ca71c99f471f3b2ef86fb074699f
-SHA1: b8bd3ac6d1654e6b14c6c9319fcb124b4b4f9494
-SHA256: 4c907d6b80696e01c6c25ffb4118fb4490ba12426a9cb3eeb855b6663c061559
-SHA512: 479d383ca926139677d97760611528e747a00f0d4ee610f1a3d77af3761e5953559b0b969e6acb7db4bf8590054c540abc9a28767e9eee277d9f44b547863ecb
+Filename: debs/ifakepro_8.26.24_iphoneos-arm.deb
+Size: 2602780
+MD5sum: 652d3ee7e59308df59b515935c56651d
+SHA1: 01a9e0092e3d7ff21f48c16d5a5e1cb61234592a
+SHA256: 889591804111a036c1f9e23ff936b250cd4f982584193883080379c1b194e8df
+Section: Utilities
 Description: iFakePro V8
-Name: iFakePro V8
 Author: iFakePro
-Icon: file:///Applications/iFakeProSettings.app/AppIcon.png
 Depiction: https://v8.ifake.pro/tools
+Icon: file:///Applications/iFakeProSettings.app/AppIcon.png
+Name: iFakePro V8
+
+Package: ifakepro.jailbreak
+Version: 8.25.17
+Architecture: iphoneos-arm
+Maintainer: iFakePro V8
+Installed-Size: 436
+Depends: firmware (>= 12.0), mobilesubstrate
+Filename: debs/ifakepro.jailbreak_8.25.17_iphoneos-arm.deb
+Size: 158188
+MD5sum: c7d23a5b374adfe7512a6c2f4d742d25
+SHA1: 2280eeb47db06aaefa46ec4be3c31e9d01e4a7d7
+SHA256: eeabd5d2312b0ad3b4efc9b2f9c2541e0d0845d62df9939b24c420f3f28992bf
+Section: Tweaks
+Description: iFakePro V8 Jailbreak
+Author: iFakePro
+Depiction: https://v8.ifake.pro/jailbreak
+Icon: file:///Applications/iFakeProSettings.app/AppIcon.png
+Name: iFakePro V8 Jailbreak
 
 Package: ldid
-Architecture: iphoneos-arm
 Version: 2.1.5-procursus7
-Priority: optional
-Section: Development
+Architecture: iphoneos-arm
 Maintainer: Procursus Team <support@procurs.us>
 Installed-Size: 236
 Depends: libiosexec1 (>= 1.2.2), libssl3, libplist3 (>= 2.2.0)
-Filename: ./debs/ldid_2.1.5-procursus7_iphoneos-arm.deb
+Filename: debs/ldid_2.1.5-procursus7_iphoneos-arm.deb
 Size: 72498
 MD5sum: c2d7d27b154df53a2ce34ed47c378565
 SHA1: 7bd1a7c6ab79f9df931e8768d7199d563b3f9618
 SHA256: 0ff838697e2916333a48676346aaa5563c95bac809db807ec416cb7393c7761f
-SHA512: dd58098e9d4cb9e124b70b5301417ed3ab813e48fce076da35c13495ffd61cfa047bb64505ef3469032cdace26e7d0437f082ee3a3ad58a81f867f93c5a950a6
+Section: Development
+Priority: optional
 Description: pseudo-codesign Mach-O files
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 
 Package: libflex
-Architecture: iphoneos-arm
 Version: 5.22.10
-Section: Tweaks
+Architecture: iphoneos-arm
 Maintainer: Tanner Bennett <thepantsthief@me.com>
 Installed-Size: 11420
 Pre-Depends: firmware (>= 9.0)
-Depends:
-Filename: ./debs/libflex_5.22.10.deb
+Filename: debs/libflex_5.22.10.deb
 Size: 2878638
 MD5sum: 1bc68474cf4436d15f9af11e1c166f30
 SHA1: 932ee3f567bbaf7761221cd89f08028a5f507d65
 SHA256: cfbfe97973e4032db83d1190a22073ff57abbfa8a0b6ae1771655c46b305a0e2
-SHA512: 51809174753c9c96e945dfca49f1f64ad44918822c7f7bccb288e8f3255d2f14ddcb07b9943ee5e026b6273b03b8af9d163edd659adf88fa197b63257151965c
+Section: Tweaks
 Description: A library for Flipboard Explorer.
-Name: libFLEX
 Author: Tanner Bennett <thepantsthief@me.com>
 Depiction: https://nscake.github.io/package.html?package=libflex
-SileoDepiction: https://nscake.github.io/depictions/libflex.sileo.json
+Name: libFLEX
+Sileodepiction: https://nscake.github.io/depictions/libflex.sileo.json
 
 Package: libplist3
-Architecture: iphoneos-arm
 Version: 2.2.0+git20230130.4b50a5a
-Priority: standard
-Section: Development
+Architecture: iphoneos-arm
 Maintainer: Procursus Team <support@procurs.us>
 Installed-Size: 132
-Provides: libplist (= 99)
 Depends: libiosexec1 (>= 1.2.2)
 Conflicts: libplist
 Replaces: libplist
-Filename: ./debs/libplist3_2.2.0+git20230130.4b50a5a_iphoneos-arm.deb
+Provides: libplist (= 99)
+Filename: debs/libplist3_2.2.0+git20230130.4b50a5a_iphoneos-arm.deb
 Size: 44874
 MD5sum: 5c1085926388def497d3e6cbc54ff21c
 SHA1: cb38c3fcbacef0bdc54151893f0b7885080bdc1d
 SHA256: 6261ff956a1a5944760bc42f6039bce8b55dae2af5722c24a1447d09544f668f
-SHA512: 1b7cbd0a7e79396f56a90630b675de1ba3436f6be69c598bec06507e441a7464e9b0f73259472a082f0d4d4acf627609ca738f112c3762db2de62bbcc794740c
+Section: Development
+Priority: standard
 Description: Library for handling Apple binary and XML property lists
 
 Package: me.jjolano.fmwk.hookkit
-Architecture: iphoneos-arm
 Version: 1.0.15
-Section: Development
+Architecture: iphoneos-arm
 Maintainer: jjolano
 Installed-Size: 284
 Depends: firmware (>= 8.0), me.jjolano.fmwk.modulous, me.jjolano.fmwk.rootbridge
-Filename: ./debs/me.jjolano.fmwk.hookkit_1.0.15_iphoneos-arm.deb
+Filename: debs/me.jjolano.fmwk.hookkit_1.0.15_iphoneos-arm.deb
 Size: 24444
 MD5sum: ff86866f47a3be3f8d9bb6c4f65b094d
 SHA1: 8db0f2d7b7948495c142d82ff5bbbd9e55e92ed8
 SHA256: 8c3cbbb8e544b037841071d4eb8d3d4c72aefa79ab46efd6689d4419a7c49db7
-SHA512: 8dc0b925eeb8ce33bdd428055ea22df1ad54aa21588e100b088cbadedd1675efeb72d8e705c3000bf4ef1960726d759718dd74802b46faaabb1e15ea5778d351
+Section: Development
 Description: An iOS developer framework for unified hooking methods.
 Tag: role::developer
-Name: HookKit Framework
 Author: jjolano
+Name: HookKit Framework
 
 Package: me.jjolano.fmwk.modulous
-Architecture: iphoneos-arm
 Version: 1.0.8
-Section: Development
+Architecture: iphoneos-arm
 Maintainer: jjolano
 Installed-Size: 280
 Depends: firmware (>= 8.0)
-Filename: ./debs/me.jjolano.fmwk.modulous_1.0.8_iphoneos-arm.deb
+Filename: debs/me.jjolano.fmwk.modulous_1.0.8_iphoneos-arm.deb
 Size: 10154
 MD5sum: ef622a803a599d116d2cd4c44c3d7b84
 SHA1: 610853a3db02a5d6a4331c8bb46716e073fe1ddd
 SHA256: c60d201ee39e9e5d0f7e3a827adb53a2e3d01cfc6945fb138738eb7a1391e4db
-SHA512: d1d15c26dc38f187c5957a5094c67779e01ef45ce359b5d3bdb047b8e1e895e30779e3959c21c198839530416f853d7b3f9b1a3168e890e926b6835c2df23349
+Section: Development
 Description: An iOS developer framework for modular software.
 Tag: role::developer
-Name: Modulous Framework
 Author: jjolano
+Name: Modulous Framework
 
 Package: me.jjolano.fmwk.rootbridge
-Architecture: iphoneos-arm
 Version: 1.0.1
-Section: Development
+Architecture: iphoneos-arm
 Maintainer: jjolano
 Installed-Size: 280
 Depends: firmware (>= 8.0)
-Filename: ./debs/me.jjolano.fmwk.rootbridge_1.0.1_iphoneos-arm.deb
+Filename: debs/me.jjolano.fmwk.rootbridge_1.0.1_iphoneos-arm.deb
 Size: 5942
 MD5sum: 55a048eb33aafb6f3a7b792b7184d904
 SHA1: b778d0065f8f6ed6c9abff8838190d3df9824b04
 SHA256: 0bec075deff352772f5d24098835f746e89e9b5a2392d0f7e699dd5d0f48ebae
-SHA512: 56439dae5361f0addb10a687e1c7037e3a39dbe19d8ca1c20ce9303f00ee3185a2cc1d408e0c2c098f273297064a37df4278915914c90768ea32e7c78c3952bb
+Section: Development
 Description: An iOS developer framework for rootless tweak development.
 Tag: role::developer
-Name: RootBridge Framework
 Author: jjolano
+Name: RootBridge Framework
 
 Package: me.jjolano.hkmodule.fishhook
-Architecture: iphoneos-arm
 Version: 1.0.8
-Section: HookKit (Modules)
+Architecture: iphoneos-arm
 Maintainer: jjolano
 Installed-Size: 288
 Pre-Depends: me.jjolano.fmwk.hookkit
-Filename: ./debs/me.jjolano.hkmodule.fishhook_1.0.8_iphoneos-arm.deb
+Filename: debs/me.jjolano.hkmodule.fishhook_1.0.8_iphoneos-arm.deb
 Size: 10364
 MD5sum: 7027f9d97f5c6b8a31971d4ee70b227a
 SHA1: 4ae44fac99b4c0a2b07afa493e52651da9f71fed
 SHA256: ce87cd07f76ad92a377ae7e13f31ebd8a588c83296b6e07761a0f8043f717e57
-SHA512: 6f2f696fccbb0e26416a50d8b5af76ae312ddd63a59503b25550c39621a6716c4c54e7ce24914671415dc6570dd75349b3532e89c476e5825dce0f27c886077d
+Section: HookKit (Modules)
 Description: This module provides fishhook library support for HookKit Framework.
-Name: HookKit Module (fishhook)
 Author: jjolano
+Name: HookKit Module (fishhook)
 
 Package: me.jjolano.hkmodule.substrate
-Architecture: iphoneos-arm
 Version: 1.0.8
-Section: HookKit (Modules)
+Architecture: iphoneos-arm
 Maintainer: jjolano
 Installed-Size: 284
 Pre-Depends: me.jjolano.fmwk.hookkit
 Depends: mobilesubstrate
-Filename: ./debs/me.jjolano.hkmodule.substrate_1.0.8_iphoneos-arm.deb
+Filename: debs/me.jjolano.hkmodule.substrate_1.0.8_iphoneos-arm.deb
 Size: 5806
 MD5sum: 2ed9fc5a3064fea97078a4b8a8b712a8
 SHA1: 9ad57d5cb56e5afd0ee89833c999b3846165c0ef
 SHA256: dceca38abeae52c86a340be72805dc652884dd461169211ef84551a5d7858cce
-SHA512: 0ae37b5b14861dea5aafe58978c81bb1b8e5096e2000568d8dfd646a4c7a5e917d82931f37a306dc4dae0f6aa2969c714d92daaf6595608a235e02f8684033eb
+Section: HookKit (Modules)
 Description: This module provides the Cydia Substrate API for HookKit Framework.
-Name: HookKit Module (Cydia Substrate)
 Author: jjolano
+Name: HookKit Module (Cydia Substrate)
 
 Package: me.jjolano.shadow
-Architecture: iphoneos-arm
 Version: 8.26.24
-Section: System
+Architecture: iphoneos-arm
 Maintainer: jjolano, modified by iThanh
 Installed-Size: 828
-Provides: me.jjolano.shadow.beta
 Pre-Depends: dpkg
 Depends: firmware (>= 8.0), com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.rootbridge
 Recommends: mobilesubstrate, preferenceloader, me.jjolano.hkmodule.fishhook
 Suggests: com.ps.injectionfoundation
 Conflicts: me.jjolano.shadow.beta, me.jjolano.shadow.legacy
 Replaces: me.jjolano.shadow.beta
-Filename: ./debs/me.jjolano.shadow_8.26.24_iphoneos-arm.deb
+Provides: me.jjolano.shadow.beta
+Filename: debs/me.jjolano.shadow_8.26.24_iphoneos-arm.deb
 Size: 220642
 MD5sum: c9214f30ce68930c42a76737b06581c8
 SHA1: bb27c3b291ca98e958cf9ff59a045baedf87416b
 SHA256: 1c20758982b1e3c14b3bce7ec234406e0b890bb91fdeeb1a65712b29c5cb39e9
-SHA512: 25fc2eca3277227b28536002009021391142ff1aee81c84e79705c5583d29ad159e3bd9b7661c85eb7a71ae76ad2c9451ff327146de984f4f3efbc905d078dad
+Section: System
 Description: A modern jailbreak detection bypass, modified by iThanh.
-Name: iFakePro Shadow
 Author: jjolano, modified by iThanh
+Name: iFakePro Shadow
+
+Package: moe.misty.sslkillswitch3
+Version: 1.5.1+rootful
+Architecture: iphoneos-arm
+Maintainer: NyaMisty <misty@misty.moe>
+Installed-Size: 196
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.nablac0d3.sslkillswitch2
+Filename: debs/moe.misty.sslkillswitch3_1.5.1+rootful_iphoneos-arm.deb
+Size: 17144
+MD5sum: c3e6d496e188a8db6608c8e1468cd97d
+SHA1: 4c70b95a5128f43b7e7d0b329225f6f603ab30c0
+SHA256: c077c8606a09d04221c5cc1caa2c6f2ca8a490a47c8d338bed6daaf31e0b84ef
+Section: Tweaks
+Description: Blackbox tool to disable SSL certificate validation - including certificate pinning - within iOS and OS X Apps.
+Author: NyaMisty <misty@misty.moe>, Alban Diquet <nabla.c0d3@gmail.com>
+Name: SSL Kill Switch 3
 
 Package: org.coolstar.libhooker
-Architecture: iphoneos-arm
 Version: 0.0.1.1
-Section: Development
+Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
-Filename: ./debs/org.coolstar.libhooker_0.0.1.1.deb
+Filename: debs/org.coolstar.libhooker_0.0.1.1.deb
 Size: 5436
 MD5sum: 4b6653470b9ef4d90f92b52be12d7def
 SHA1: 9413bb289ca3783f2a9eb079014fc86b24e8e4f6
 SHA256: b8494aebfa09c62593b76f3685644360d9d30f3c7f61e7d74ae9054575a7de61
-SHA512: 62f214a51f2f068479e8dcbd78a5aed4670e0075b83c66841b9670993d1effcd5624c280351c5a728c4a5c78511fdb9ebc332fcfcd8c54dbbcb67ceab9e299ff
+Section: Development
 Description: shim for those who can't use the real libhooker (e.g. iOS 10 or arm32)
-Name: libhooker-shim
 Author: CoolStar <coolstarorganization@gmail.com>
+Name: libhooker-shim
 
 Package: preferenceloader
-Architecture: iphoneos-arm
 Version: 2.2.6
-Section: System
+Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 526
 Depends: mobilesubstrate
-Filename: ./debs/preferenceloader_2.2.6.deb
+Filename: debs/preferenceloader_2.2.6.deb
 Size: 36414
 MD5sum: 551c39b9d6d58be5ad82e81a59a1715f
 SHA1: c1d547036234756c5e75a633393d4ffa791b1126
 SHA256: 335fff25ff13021889ba856ce84fbc23ba25569f1c6cc65a3e113b433b1ed60f
-SHA512: 8b1010e1bc02c722edf248cb4ad74ed03990334f290686450eff2d2354603bc6148298c478e98cf270ae875a2f2119598e3ba4cdfd0e0b1c6c298596ac8d7be3
+Section: System
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
 Description: load preferences in style
 Tag: role::hacker, purpose::library
-Name: PreferenceLoader
 Author: Sam Bingner <maintainer@sbdhi.com>
-dev: dustinhowett
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
-
-Package: com.rpetrich.rocketbootstrap
-Architecture: iphoneos-arm
-Version: 1.1.0~libhooker2
-Section: Tweaks
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Depends: org.coolstar.libhooker
-Filename: ./debs/rocketbootstrap_1.1.0~libhooker2-iphoneos-arm.deb
-Size: 10444
-MD5sum: baf051456b187d84a08c45129141a9ff
-SHA1: 4327f33c86f776a5005d95a5159234234d3f9ed0
-SHA256: 6c193c277b455339bea58ea5dd16675bed032f1c3abe8cdb569a80b925e1b3ac
-SHA512: 952dbc0c188d9441446a3aeb3c29be941794a60f95e1ba395e9eced9266ce6bbb93ca4631ede812a0648a6440e9e25de0f2255207ac101859610b0f04d246821
-Description: Support library allowing tweaks to communicate with sandboxed processes
-Tag: purpose::extension, role::developer
-Name: RocketBootstrap
-Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
-dev: rpetrich
+Dev: dustinhowett
+Name: PreferenceLoader
 
 Package: zip
-Architecture: iphoneos-arm
 Version: 3.0-11
-Multi-Arch: foreign
-Priority: important
-Section: Archiving
+Architecture: iphoneos-arm
 Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 1392
-Filename: ./debs/zip_3.0-11_iphoneos-arm.deb
+Filename: debs/zip_3.0-11_iphoneos-arm.deb
 Size: 146802
 MD5sum: 561027b6eb5556757ea8d9a6ed418c8b
 SHA1: 2289641351a8a03bb7f7d5c83edb45f00d798df7
 SHA256: 552d03c469480d8af00096512351601d7edc03d24c447cb860444b2d3b2a6253
-SHA512: 33877130b1af2f62897a68ed96ac7cd3dbfd6b958761d9318a547421b6e25366c54c791373024d18f181ed15a8f9bace7012d6d75b2ba2442af5719f8e1673c2
+Section: Archiving
+Priority: important
+Multi-Arch: foreign
 Description: standard Windows compression tool
 Tag: purpose::console, role::hacker
 
