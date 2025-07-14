@@ -4,6 +4,12 @@
   "itemCornerRadius":10,
   "banners":[
     {
+      "url":"ihihi.png",
+      "title":"iHihi",
+      "package":"ifakepro",
+      "hideShadow":false
+    },
+    {
       "url":"https://i.imgur.com/b4W2mTI.png",
       "title":"Debra",
       "package":"com.sudo.debra",
@@ -15,22 +21,16 @@
       "package":"com.sudo.glif",
       "hideShadow":false
     },
-		{
-			"url":"https://i.imgur.com/vNoyKBz.png",
-			"title":"AutoTouch Convert CC Module",
-			"package":"com.sudo.autotouchcnvrt",
-			"hideShadow":false
-		},
+	{
+		"url":"https://i.imgur.com/vNoyKBz.png",
+		"title":"AutoTouch Convert CC Module",
+		"package":"com.sudo.autotouchcnvrt",
+		"hideShadow":false
+	},
     {
       "url":"https://i.imgur.com/pdBXVrl.png",
       "title":"lightspinnyRGB",
       "package":"com.sudo.lightspinnyrgb",
-      "hideShadow":false
-    },
-    {
-      "url":"https://i.imgur.com/76sZPWn.png",
-      "title":"NoAds4YahooMail",
-      "package":"com.sudo.noads4yahoomail",
       "hideShadow":false
     }
   ]
