@@ -80,6 +80,28 @@ Description: Tweak tự động từ chối tất cả yêu cầu cấp quyền 
 Author: Hihi
 Name: AutoDenyPermissions
 
+Package: com.hiroshit.nolowpoweralert
+Version: 0.1-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 64
+Depends: firmware (>= 4.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/nolowpoweralert_0.1-1.deb
+Size: 2716
+MD5sum: 59216878813e32f3de80753ab36a29f1
+SHA1: fae7479f728d6d397baa28ab0abead46675f21c4
+SHA256: 65deb43388954931e507cd526158013e509e70df8878d1cf4869b65bc7236d6a
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=nolowpoweralertDp
+Description: Disables low battery alerts
+Tag: purpose::extension
+Author: hiroshit <hiroshieatworld@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=nolowpoweralertDp
+Dev: hiroshit
+Name: NoLowPowerAlert
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.opa334.altlist
 Version: 1.0.11
 Architecture: iphoneos-arm
@@ -160,6 +182,29 @@ Author: Tanner Bennett <thepantsthief@me.com>
 Depiction: https://nscake.github.io/package.html?package=com.pantsthief.flexing
 Name: FLEXing
 Sileodepiction: https://nscake.github.io/depictions/com.pantsthief.flexing.sileo.json
+
+Package: com.rob311.sorrylowbattery
+Version: 1.6
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 1813
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Filename: debs/sorrylowbattery_1.6.deb
+Size: 793846
+MD5sum: 32b235a683739380f8c2327f8a51cd66
+SHA1: 14ea06cdd4fc3cdccf0401f28d846d8610c80163
+SHA256: 2a936b5a914b63cb77a60fffda52786e9e224baf0a932cf8d7348f01576598ab
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sorrylowbatteryDp
+Description: set fake battery percentage from Settings
+Tag: purpose::extension
+Author: rob311 <rob@rob311.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sorrylowbatteryDp
+Dev: rob311
+Icon: file:///Library/PreferenceBundles/SorryLowBatteryPrefs.bundle/SorryLowBatteryPrefs@2x.png
+Name: SorryLowBattery
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.rpetrich.rocketbootstrap
 Version: 1.1.0~libhooker2
